@@ -1,0 +1,33 @@
+{
+  "name": "currying-workshop",
+  "version": "1.0.0",
+  "description": "Contains solutions to the currying workshop exercises.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurav-techuniv2018/currying-workshop.git"
+  },
+  "keywords": [
+    "MDL",
+    "JavaScript",
+    "TechUniversity2018"
+  ],
+  "author": "Saurav Sahu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saurav-techuniv2018/currying-workshop/issues"
+  },
+  "homepage": "https://github.com/saurav-techuniv2018/currying-workshop#readme",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "jest": "^22.1.4"
+  }
+}
