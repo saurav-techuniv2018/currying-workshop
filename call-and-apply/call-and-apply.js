@@ -3,7 +3,7 @@ const callAndApply = {
     method.call(object, nameArg, ageArg, tShirtSizeArg);
   },
   applier(object, method, argumentsArr) {
-    method.apply(method, argumentsArr);
+    method.apply(object, argumentsArr);
   },
 };
 
