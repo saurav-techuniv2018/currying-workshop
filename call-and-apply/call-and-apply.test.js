@@ -1,6 +1,6 @@
 const callAndApply = require('./call-and-apply');
 
-describe(callAndApply.name, () => {
+describe('callAndApply', () => {
   describe('should invoke mockFunction', () => {
     test('when it is passed as an argument to caller', () => {
       const mockFunction = jest.fn();
